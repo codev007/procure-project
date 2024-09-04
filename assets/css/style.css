@@ -477,6 +477,8 @@ h1,
 .heading-1 {
   font-size: 56px;
   line-height: 67px;
+  color: #FFFFFF;
+  text-shadow: #3d5af1;
 }
 
 h2,
@@ -2672,12 +2674,15 @@ label {
 } */
 .card-we-know .card-image {
   position: relative;
+  
 }
 .card-we-know .card-image img {
   width: 100%;
   height: 100vh;
   /* border-radius: 25px; */
   object-fit: cover;
+  /* z-index: 2; */
+  background-color: #000000;
 }
 .card-we-know .card-info {
   /* background-color: #D6B4FC; */
@@ -2705,10 +2710,10 @@ label {
   color: #ffffff;
   transition: transform 0.6s ease-in-out, margin-bottom 0.6s ease-in-out;
 }
-.card-we-know .card-info .card-title h4{
+/* .card-we-know .card-info .card-title{
   font-size: 50px;
   line-height: 55px;
-}
+} */
 .col-lg-6,
 .col-md-6 {
   padding: 0; /* Remove padding to make sure image covers full width */
@@ -2751,11 +2756,11 @@ label {
   transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 
 }
-.card-we-know .card-info .card-desc p{
+/* .card-we-know .card-info .card-desc p{
   font-size: 22px;
   line-height: 35px;
   font-weight: 400;
-}
+} */
 .card-we-know:hover .card-desc {
   /* display: block; */
   transform: translateY(-10px);
@@ -7617,7 +7622,7 @@ a.icon-socials:hover {
 }
 .hero-4 .banner-inner {
   text-align: center;
-  padding: 200px 0px 0px 0px;
+  padding: 160px 0px 50px 0px;
   background-color: #62406b;
 }
 
@@ -7826,29 +7831,31 @@ a.icon-socials:hover {
   position: relative;
 }
 .hero-5 .banner-inner-top {
-  background-color: #62406b;
+  /* background-color: #62406b; */
   padding-top: 250px;
   padding-bottom: 140px;
 }
 .hero-5 .box-banner-left {
-  max-width: 652px;
-  width: 45%;
+  /* max-width: 652px; */
+  width: 56%;
   position: relative;
+  background-color: #00000090;
   z-index: 4;
+  padding: 50px;
 }
 .hero-5 .banner-image-main {
   position: absolute;
   right: 0px;
   bottom: 0px;
-  width: 58%;
+  width: 100%;
   height: 100%;
 }
 .hero-5 .banner-image-main .img-bg {
-  background: url(../imgs/page/homepage1/screen.png) no-repeat bottom right;
-  background-size: contain;
+  background: url(../imgs/template/bg.png) no-repeat bottom right;
+  background-size: cover;
   width: 100%;
   height: 100%;
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
 .hero-5 .banner-image-main .blur-bg {
@@ -9362,7 +9369,10 @@ a.icon-socials:hover {
   font-size: 14px;
   line-height: 14px;
 }
-
+.footer-section-procure{
+  padding-left: 1px;
+  padding-right: 1px;
+}
 .content-blog-2 .col-lg-9 {
   flex: 0 0 auto;
   width: 72%;
@@ -9525,8 +9535,8 @@ a.icon-socials:hover {
     /* padding-right: 20px; */
   }
   .hero-5 .banner-inner-top {
-    padding-top: 180px;
-    padding-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
   .blog-head .icon-1 {
     left: 0%;
@@ -9617,9 +9627,9 @@ a.icon-socials:hover {
   .box-faqs-list .item-faqs {
     width: 50%;
   }
-  .hero-5 .banner-image-main {
+  /* .hero-5 .banner-image-main {
     display: none;
-  }
+  } */
   .hero-5 .box-banner-left {
     max-width: 100%;
     width: 100%;
@@ -9837,6 +9847,46 @@ a.icon-socials:hover {
   }
 }
 @media (max-width: 767.98px) {
+  .footer-section-procure{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .box-testimonials-3{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .card-we-know .card-info .card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #ffffff;
+    transition: transform 0.6s ease-in-out, margin-bottom 0.6s ease-in-out;
+  }
+  .card-we-know:hover .card-desc {
+    /* display: block; */
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  .hover-card:hover .card-title {
+    transform: translateY(0px); 
+    /* Move title up */
+    /* Add space below title */
+  }
+  .card-we-know .card-info .card-desc {
+    /* border-top: 1px solid #FFFFFF; */
+    /* padding-top: 17px; */
+    /* display: none; */
+    /* margin-bottom: 80px; */
+    /* overflow: hidden; */
+    opacity: 1;
+    /* transition: all 0.3s ease-in-out; */
+    /* transition: all 0.3s ease-in-out; */
+    transition: transform 0.7s ease-in-out, margin-bottom 0.7s ease-in-out;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+  
+  }
   .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-top {
     padding: 15px 30px 13px 30px;
     border-bottom: 1px solid #ececec;
