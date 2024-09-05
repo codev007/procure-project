@@ -8001,8 +8001,6 @@ a.icon-socials:hover {
   width: 60%;
   text-align: center;
   color: white;
-  padding-right: 50px;
-  padding-bottom: 10px;
   transition: transform 0.6s ease-in-out, margin-bottom 0.6s ease-in-out;
 }
 
@@ -10013,8 +10011,12 @@ a.icon-socials:hover {
     
 }
 
-.text-content, .image-content {
+.text-content {
     width: 100%;
+}
+.image-content {
+  width: 100%;
+  margin-top: 50px;
 }
 
 .text-content h1 {
