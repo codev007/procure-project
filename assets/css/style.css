@@ -846,18 +846,16 @@ h6,
 
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .col {
   flex: 1;
-  min-width: 250px;
-  max-width: 350px;
-  margin: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
   padding: 10px;
-  /* height: 300px; */
-  /* background-color: #F5F5F5; */
   border-radius: 10px;
   text-align: center;
   transition: transform 0.3s ease;
@@ -2331,7 +2329,7 @@ label {
 
 .card-features-5 {
   border-radius: 32px;
-  background-color: #1e1e1e;
+  background-color: #57541a;
   padding: 40px;
   color: #ffffff;
   margin-bottom: 30px;
@@ -2747,6 +2745,8 @@ label {
   margin: 0; /* Remove any margin */
 }
 
+
+
 .card-we-know {
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margin */
@@ -2883,16 +2883,17 @@ label {
 }
 
 .full-screen-section {
-  height: 100vh; /* Full screen height */
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f8f9fa; /* Background color */
+  height: 100vh;
+  background-color: #827f32;
 }
 
 .container-fluid {
-  height: 100%;
+  /* height: 100%; */
   margin-top: 30px;
+  padding-bottom: 50px;
 }
 
 .no-gutters {
@@ -3789,7 +3790,7 @@ label {
 .mobile-header-wrapper-style {
   position: fixed;
   top: 0;
-  max-width: 100px;
+  max-width: 380px;
   width: 100%;
   min-height: 100vh;
   bottom: 0;
@@ -7788,7 +7789,7 @@ a.icon-socials:hover {
 }
 
 .box-imazing-features {
-  background-color: #191919;
+  background-color: #837e25;
   padding: 142px 0px 112px 0px;
   background-image: url(../imgs/page/homepage2/bg-imazing.png);
   background-repeat: no-repeat;
@@ -7926,7 +7927,7 @@ a.icon-socials:hover {
   width: 100%; /* Full screen width */
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #C0B2C3;
+  background-color: #827f32;
 }
 
 .box-newsletter .newsletter-left {
@@ -8013,11 +8014,11 @@ a.icon-socials:hover {
   max-width: 450px;
 }
 
-.full-screen-section {
+.full-screen-section-why-procure {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #827f32; /* Olive green color from the image */
 }
 
