@@ -370,7 +370,7 @@ textarea.form-control {
 }
 
 .brand-4 {
-  color: #392583;
+  color: #837e25;
 }
 
 @media (min-width: 1400px) {
@@ -578,6 +578,13 @@ h6,
   font-size: 22px;
   line-height: 28px;
   font-weight: 700;
+  font-family: "Urbanist", sans-serif;
+}
+
+.text-35-semi-bold {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
   font-family: "Urbanist", sans-serif;
 }
 
@@ -846,7 +853,7 @@ h6,
 
 .row {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   flex-wrap: wrap;
 }
 
@@ -7423,6 +7430,7 @@ a.icon-socials:hover {
 }
 .card-feature-2 .card-info a {
   color: #191919;
+  text-align: start;
 }
 .card-feature-2 .card-info a:hover {
   color: #52b8aa;
