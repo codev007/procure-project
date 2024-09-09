@@ -843,6 +843,7 @@ h6,
   line-height: 34px;
   color: #898a8a;
 }
+
 .box-count .deals-countdown .countdown-section:last-child::before {
   display: none;
 }
