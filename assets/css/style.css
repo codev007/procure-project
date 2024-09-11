@@ -3690,7 +3690,8 @@ label {
   background: #ffffff;
 }
 .sticky-bar.stick .burger-icon {
-  top: 15px;
+  top: 20px;
+    right: 20px;
 }
 .sticky-bar.stick.header-style-2 {
   background-color: #ffffff;
@@ -10395,7 +10396,8 @@ a.icon-socials:hover {
     padding: 15px 15px 15px 15px;
   }
   .sticky-bar.stick .burger-icon {
-    top: 0px;
+    top: 20px;
+    right: 20px;
   }
   .box-count .deals-countdown .countdown-section {
     width: 25%;
@@ -10802,7 +10804,7 @@ a.icon-socials:hover {
 @media (max-width: 339.98px) {
   .burger-icon {
     top: 20px;
-    right: 20px;
+    right: 100px;
   }
   .box-numbers .item-number {
     width: 100%;
