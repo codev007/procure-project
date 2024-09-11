@@ -10389,6 +10389,7 @@ a.icon-socials:hover {
   }
   .burger-icon {
     top: 20px;
+    right: 20px;
   }
   .box-border-rounded {
     padding: 15px 15px 15px 15px;
@@ -10589,6 +10590,10 @@ a.icon-socials:hover {
   }
 }
 @media (max-width: 499.98px) {
+  .burger-icon {
+    top: 20px;
+    right: 20px;
+  }
   .cards-banner .card-banner-1 {
     width: 100%;
     margin-right: 0px;
@@ -10663,6 +10668,10 @@ a.icon-socials:hover {
   }
 }
 @media (max-width: 449.98px) {
+  .burger-icon {
+    top: 20px;
+    right: 20px;
+  }
   .carouselTicker.carouselTicker_vertical .carouselTicker__item,
   .carouselTicker2.carouselTicker_vertical .carouselTicker__item {
     height: 217px;
@@ -10791,6 +10800,10 @@ a.icon-socials:hover {
   }
 }
 @media (max-width: 339.98px) {
+  .burger-icon {
+    top: 20px;
+    right: 20px;
+  }
   .box-numbers .item-number {
     width: 100%;
   }
